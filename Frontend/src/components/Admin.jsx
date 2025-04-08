@@ -35,12 +35,10 @@ export default function Admin({
       const res = await axios.delete(
         `http://localhost:3000/menu/${id}?_delay=3000`
       );
-      console.log(res.data);
     } catch {
       DeleteError(olditms);
       const notify = () => {
         toast("✘ Failed to delete product!");
-        console.log(olditms);
       };
       notify();
     }

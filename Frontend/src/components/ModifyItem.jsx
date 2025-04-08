@@ -15,8 +15,6 @@ export default function ModifyItem({ categories, items, modifyItemList }) {
   useEffect(() => {
     const newform = { ...formstate, ...Item };
     setform(newform);
-    // console.log("effect");
-    // console.log(Item);
   }, []);
 
   const formhandler = (e) => {

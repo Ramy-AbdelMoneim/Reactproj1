@@ -174,7 +174,6 @@ function App() {
   const modifyItemList = (item) => {
     const newItems = [...items];
     const index = newItems.findIndex((itm) => item.id === itm.id);
-    // console.log(index);
     newItems[index] = { ...item };
     setItems(newItems);
   };
