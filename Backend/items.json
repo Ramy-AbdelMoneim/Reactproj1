@@ -1,0 +1,114 @@
+{
+  "menu": [
+    {
+      "name": "Large burger",
+      "price": 50,
+      "Category": 1,
+      "id": 1,
+      "count": 0,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "Large fries",
+      "price": 20,
+      "count": 0,
+      "quantity": 1,
+      "Category": 2
+    },
+    {
+      "id": 3,
+      "name": "Large chicken",
+      "price": 30,
+      "count": 0,
+      "quantity": 1,
+      "Category": 3
+    },
+    {
+      "id": 4,
+      "name": "Large water",
+      "price": 10,
+      "count": 0,
+      "quantity": 1,
+      "Category": 4
+    },
+    {
+      "id": 5,
+      "name": "Small burger",
+      "price": 50,
+      "count": 0,
+      "quantity": 1,
+      "Category": 1
+    },
+    {
+      "id": 6,
+      "name": "Small fries",
+      "price": 20,
+      "count": 0,
+      "quantity": 1,
+      "Category": 2
+    },
+    {
+      "id": 7,
+      "name": "Small chicken",
+      "price": 30,
+      "count": 0,
+      "quantity": 1,
+      "Category": 3
+    },
+    {
+      "id": 8,
+      "name": "Small water",
+      "price": 10,
+      "count": 0,
+      "quantity": 1,
+      "Category": 4
+    },
+    {
+      "id": 9,
+      "name": "Medium burger",
+      "price": 50,
+      "count": 0,
+      "quantity": 1,
+      "Category": 1
+    },
+    {
+      "id": 10,
+      "name": "Medium fries",
+      "price": 20,
+      "count": 0,
+      "quantity": 1,
+      "Category": 2
+    },
+    {
+      "name": "ramys",
+      "price": "123",
+      "Category": 1,
+      "count": 0,
+      "quantity": 1,
+      "id": 11
+    }
+  ],
+  "Categories": [
+    {
+      "id": 0,
+      "name": "All"
+    },
+    {
+      "id": 1,
+      "name": "Burger"
+    },
+    {
+      "id": 2,
+      "name": "Fries"
+    },
+    {
+      "id": 3,
+      "name": "Chicken"
+    },
+    {
+      "id": 4,
+      "name": "Water"
+    }
+  ]
+}
