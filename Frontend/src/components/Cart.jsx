@@ -2,6 +2,12 @@ import { useEffect, useState } from "react";
 import Cartitem from "./Cartitem";
 function Cart(props) {
   const { items, addhandler, resethandler, minushandler, deleteitem } = props;
+  // console.log(items);
+  let total = 0;
+
+  for (let i = 0; i < items.length; i++) {
+    total += items[i].price * items[i].count;
+  }
   return (
     <>
       {items.length > 0 && (
@@ -34,6 +40,7 @@ function Cart(props) {
               </tbody>
             </table>
           </div>
+          <div className="text-center w-full">total price: {total}</div>
           <div className="w-full flex justify-center mt-5 rounded-4xl">
             <button
               className="btn border-2 p-1 bg-blue-400 transition-all hover:scale-105 hover:bg-blue-600"
