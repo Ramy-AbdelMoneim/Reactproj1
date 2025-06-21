@@ -118,6 +118,7 @@ function App() {
     if (id >= 0) {
       setSearchtext("");
     }
+    // console.log(typeof id)
     setSelectedpage(1);
     setSelectedcat(id);
     setInputtext("");
@@ -128,8 +129,8 @@ function App() {
     filtereditems = items.filter((item) =>
       item.name.toLowerCase().includes(searchtext.toLowerCase())
     );
-  } else if (selectedcat !== 0) {
-    filtereditems = items.filter((item) => +item.Category === selectedcat);
+  } else if (+selectedcat !== 0) {
+    filtereditems = items.filter((item) => item.Category === +selectedcat);
   } else {
     filtereditems = items;
   }

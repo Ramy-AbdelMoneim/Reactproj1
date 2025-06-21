@@ -68,7 +68,7 @@ export default function Admin({
                   <td>{item.name}</td>
                   <td>{item.price}</td>
                   <td>
-                    {categories.find((cat) => +item.Category === cat.id).name}
+                    {categories.find((cat) => item.Category === +cat.id).name}
                   </td>
 
                   <td
